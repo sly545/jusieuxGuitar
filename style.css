@@ -99,7 +99,10 @@ nav {
     top: 18%;
     transform: rotate(4deg);
 }
-
+.bourg:hover{
+    transform: rotate(0.1turn);
+    transition: 1s;
+}
 .telephone{
     position: absolute;
     width: 37%;
@@ -107,6 +110,10 @@ nav {
     transform: rotate(-18deg);
     bottom: 15%;
 }
+.telephone:hover{
+    transform: rotate(0.01turn);
+    transition: 1s;
+ }
 
 .beatels{
     width:34%;
@@ -114,8 +121,12 @@ nav {
     right: 8%;
     top: 40%;
     transform: rotate(-19deg);
- 
 }
+.beatels:hover{
+    transform: rotate(0.01turn);
+    transition: 1s;
+ }
+
 .begin{
     height: 100vh;
     background: url('img/teslariu-mihai-vaj-BFvuzmg-unsplash.jpg');
@@ -137,10 +148,10 @@ nav {
     text-align: center;
 }
 
-
 .texte-bio{
     margin-left: 2%;
 }
+
 .astafort{
     height: 100vh;
     background: url('img/pexels-stephen-niemeier-68705.jpg');
@@ -213,6 +224,7 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 
 
