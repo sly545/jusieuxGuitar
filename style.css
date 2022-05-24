@@ -69,6 +69,7 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
 .hero-bio {
     height: 100vh;
     background: url('img/photosebguitar.jpg');
@@ -136,7 +137,9 @@ nav {
     color: whitesmoke;
 }
 .titre-bio{
-    padding-bottom: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 2%;
 }
 .titre-tuto{
     font-size: 19px;
@@ -150,15 +153,6 @@ nav {
 
 .texte-bio{
     margin-left: 2%;
-}
-
-.astafort{
-    height: 100vh;
-    background: url('img/pexels-stephen-niemeier-68705.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: whitesmoke;
 }
 
 .title{
@@ -224,9 +218,6 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-
-
 
 .contact-form h1{
     margin-bottom: 10px;
