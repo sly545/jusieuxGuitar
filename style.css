@@ -219,8 +219,51 @@ nav {
     padding-bottom: 15px;
 }
 
+.GO{
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 12px;
+    background-color:transparent;
+    font-weight: bold;
+    color: black;
+    border: solid 1px ;
+    transition: 0.5s;
+    
+}
+.GO:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 12px whitesmoke;
+}
 .contact-form h1{
     margin-bottom: 10px;
+}
+.fa-arrow-up{
+    display: none;
+    position: absolute;
+}
+.fa-arrow-up:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 12px whitesmoke;
+}
+.fa-arrow-up.scroll{
+    color: black;
+    margin-left: 80%;
+    display: inline-block;
+    position: sticky;
+    font-size: 25px;
+    bottom: 7%;
+    background-color: transparent;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin-bottom: 0%;
+    transition: 0.5s;
 }
 @media all and (max-width: 991px) {
 
