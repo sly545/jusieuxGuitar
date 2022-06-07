@@ -327,3 +327,25 @@ nav {
         transform: translateX(0);
     }
 }
+@media all and (max-width: 321px) {
+    .title{
+        color: whitesmoke;
+        position: absolute;
+        right: 4%;
+        bottom: 75%;
+        font-size: 25px;
+    }
+    .begin{
+        height: 100%;
+        background: url('img/teslariu-mihai-vaj-BFvuzmg-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: whitesmoke;
+    }
+    .fa-arrow-up.scroll{
+        bottom: 2%;
+    }
+
+}
+
