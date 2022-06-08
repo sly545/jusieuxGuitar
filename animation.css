@@ -1,0 +1,23 @@
+@keyframes clignotte {
+
+    0%{
+        color: black;
+        border-color: black;
+    }
+
+    25%{
+        color: black;
+        border-color: black;
+    }
+    50%{
+        border-color: whitesmoke;
+        color: whitesmoke;
+    }
+
+    100%{
+        border-color: black;
+        color: black;
+    }
+
+    
+}

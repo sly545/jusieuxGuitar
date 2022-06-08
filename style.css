@@ -136,6 +136,7 @@ nav {
     background-position: center;
     color: whitesmoke;
 }
+
 .titre-bio{
     padding-bottom: 20px;
     padding-top: 20px;
@@ -265,6 +266,33 @@ nav {
     margin-bottom: 0%;
     transition: 0.5s;
 }
+
+.fa-arrow-down{
+    color: black;
+    background-color: transparent;
+    font-size: 25px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin-bottom: 0%;
+    transition: 0.5s;
+    position: absolute;
+    right: 11%;
+    bottom: 4%;
+    animation: clignotte linear infinite 4s;
+}
+
+
+
+.fa-arrow-down:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 12px whitesmoke;
+    color: whitesmoke;
+}
+
 @media all and (max-width: 991px) {
 
     header {
