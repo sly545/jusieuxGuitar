@@ -58,13 +58,14 @@ nav {
     color: white;
     text-decoration: none;
     z-index: 2;
+    font-size: 23px;
 }
 
 
 /* Section Hero */
 .hero {
     height: 100vh;
-    background: url('img/guitarPhotopresentationMODIFIER.jpeg');
+    background: url('img/imageindexpourbureau.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,7 +130,7 @@ nav {
  }
 
 .begin{
-    height: 100vh;
+    height: 100%;
     background: url('img/teslariu-mihai-vaj-BFvuzmg-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,8 +161,9 @@ nav {
     color: whitesmoke;
     position: absolute;
     right: 4%;
-    bottom: 77%;
-    font-size: 30px;
+    bottom: 54%;
+    font-size: 80px;
+    top: 10%;
 }
 .acroche{
     color: whitesmoke;
@@ -169,6 +171,8 @@ nav {
     position: absolute;
     text-align: center;
     z-index: 1;
+    margin-left: 3%;
+    font-size: 30px;
 }
 .contact-in{
     width: 80%;
@@ -293,7 +297,68 @@ nav {
     color: whitesmoke;
 }
 
-@media all and (max-width: 991px) {
+/* media tablette */
+
+
+@media all and (max-width: 1015px){
+    .title{
+        color: whitesmoke;
+        position: absolute;
+        right: 66%;
+        bottom: 31%;
+        font-size: 40px;
+    }
+
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        z-index: 2;
+        font-size: 20px;
+        padding-right: 4px;
+    }
+    .fa-phone:before{
+        color:whitesmoke;
+        font-size: 23px;
+        padding-right: 12px;
+    }
+   .acroche{
+    font-size: 20px;
+   }
+
+
+}
+
+@media all and (max-width: 425px) {
+    
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .hero {
+        height: 100vh;
+        background: url('img/guitarPhotopresentationMODIFIER.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .acroche{
+        color: whitesmoke;
+        bottom: 4%;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+        font-size: 24px;
+    }
+    .title{
+        color: whitesmoke;
+        position: absolute;
+        right: 4%;
+        bottom: 77%;
+        font-size: 30px;
+    }
 
     header {
         background: transparent;
@@ -354,26 +419,5 @@ nav {
     .open .menu {
         transform: translateX(0);
     }
-}
-@media all and (max-width: 321px) {
-    .title{
-        color: whitesmoke;
-        position: absolute;
-        right: 4%;
-        bottom: 75%;
-        font-size: 25px;
-    }
-    .begin{
-        height: 100%;
-        background: url('img/teslariu-mihai-vaj-BFvuzmg-unsplash.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        color: whitesmoke;
-    }
-    .fa-arrow-up.scroll{
-        bottom: 2%;
-    }
-
 }
 
