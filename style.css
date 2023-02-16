@@ -9,8 +9,25 @@ html {
 }
 
 body {
-    font-family:'Roboto Condensed'
+    font-family:'Roboto Condensed';
+  
 
+}
+.arno{
+    color:black;
+    text-decoration: none;
+   
+}
+
+.contac-mail{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contac-mail:hover{
+    font-size: +120%;
+    color: antiquewhite;
 }
 
 header {
@@ -324,6 +341,9 @@ nav {
    .acroche{
     font-size: 20px;
    }
+   .arno{
+    text-decoration: none;
+   }
 
 
 }
@@ -337,6 +357,10 @@ nav {
         box-sizing: border-box;
     }
     
+    .arno{
+        text-decoration: none;
+    }
+        
     .hero {
         height: 100vh;
         background: url('img/guitarPhotopresentationMODIFIER.jpeg');
@@ -420,4 +444,3 @@ nav {
         transform: translateX(0);
     }
 }
-
