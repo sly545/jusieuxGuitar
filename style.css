@@ -22,14 +22,11 @@ body {
 .contac-mail{
     color: whitesmoke;
     text-align: center;
-<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
-=======
     padding-top: 15px;
     padding-bottom: 15px;
->>>>>>> f8c49b146dfea0317fb3ad8fd5ac7d3e46baf1f9
 }
 .contac-mail:hover{
     font-size: +120%;
@@ -216,7 +213,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 .contact-map{
     width: 100%;
@@ -300,8 +297,8 @@ nav {
     border: solid black 1px;
     margin-bottom: 0%;
     transition: 0.5s;
-    top: 158%;
-    right: 8%;
+    top: 163%;
+    right: 1%;
     animation: clignotte linear infinite 4s;
 }
 .fa-contact {
@@ -365,6 +362,36 @@ nav {
 
 
 @media all and (min-width: 600px){
+   
+    .contenrDesktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000;
+    }
+    .fa-arrow-up {
+
+        top: 135%;
+       
+    }
+    .begin {
+        width: 45%;
+        height: 100%;
+        background: url(img/teslariu-mihai-vaj-BFvuzmg-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: whitesmoke;
+    }
+    .hero-bio {
+        width: 45%;
+        height: 100vh;
+        background: url(img/photosebguitar.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+   
     .title{
         color: whitesmoke;
         position: absolute;
@@ -400,7 +427,6 @@ nav {
    .arno{
     text-decoration: none;
    }
-<<<<<<< HEAD
    .bourg{
     width: 24%;
    }
@@ -410,8 +436,6 @@ nav {
    .telephone{
     width: 24%;
    }
-=======
->>>>>>> f8c49b146dfea0317fb3ad8fd5ac7d3e46baf1f9
 
 
 }
