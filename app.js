@@ -29,3 +29,24 @@ flecheversbas.addEventListener('click', () => {
     behavior: 'smooth'
   });
 });
+<<<<<<< HEAD
+=======
+toggle.addEventListener('click', function() {
+    body.classList.toggle('open');
+})
+fleche.addEventListener('click',() =>{
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior: "smooth"
+    })
+})
+flecheversbas.addEventListener('click',() =>{
+    window.scrollTo({
+        top:650,
+        behavior: "smooth"
+    })
+})
+
+
+>>>>>>> f8c49b146dfea0317fb3ad8fd5ac7d3e46baf1f9

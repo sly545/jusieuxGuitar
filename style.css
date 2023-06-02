@@ -22,9 +22,14 @@ body {
 .contac-mail{
     color: whitesmoke;
     text-align: center;
+<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
+=======
+    padding-top: 15px;
+    padding-bottom: 15px;
+>>>>>>> f8c49b146dfea0317fb3ad8fd5ac7d3e46baf1f9
 }
 .contac-mail:hover{
     font-size: +120%;
@@ -395,6 +400,7 @@ nav {
    .arno{
     text-decoration: none;
    }
+<<<<<<< HEAD
    .bourg{
     width: 24%;
    }
@@ -404,6 +410,8 @@ nav {
    .telephone{
     width: 24%;
    }
+=======
+>>>>>>> f8c49b146dfea0317fb3ad8fd5ac7d3e46baf1f9
 
 
 }
@@ -553,4 +561,3 @@ nav{
         transform: translateX(0);
     }
 }
-
