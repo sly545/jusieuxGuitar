@@ -365,31 +365,46 @@ nav {
    
     .contenrDesktop{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         background-color: #000;
     }
-    .fa-arrow-up {
+    .TESTE{
+        background-color: #000;
+    }
+    .fond{
+        display: flex;
+        flex-direction: column;
+    }
+    .ContenerCont{
+     display: inline;
 
-        top: 135%;
+    }
+    .fa-arrow-down{
+
+        display: none;
+    }
+    .contenedestopcontact{
+        display: flex;
+        flex-direction: row;
+    }
+    .fa-arrow-up {
+       display: none;
        
     }
-    .begin {
-        width: 45%;
-        height: 100%;
-        background: url(img/teslariu-mihai-vaj-BFvuzmg-unsplash.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    .begin{
+        background: #181717;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        border: 1px solid black;
         color: whitesmoke;
+        width: 45%;
+        margin-left: 90px;
+        padding: 10px;
     }
+    
     .hero-bio {
         width: 45%;
-        height: 100vh;
-        background: url(img/photosebguitar.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    
     }
    
     .title{
