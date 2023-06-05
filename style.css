@@ -18,7 +18,10 @@ body {
     text-decoration: none;
    
 }
-
+.ContenerCont{
+    display: flex;
+    flex-direction: column;
+}
 .contac-mail{
     color: whitesmoke;
     text-align: center;
@@ -297,10 +300,16 @@ nav {
     border: solid black 1px;
     margin-bottom: 0%;
     transition: 0.5s;
-    top: 163%;
+    top: 174%;
     right: 1%;
     animation: clignotte linear infinite 4s;
 }
+.autre-classe {
+    /* Vos styles personnalisés ici */
+   top:199%;
+    /* Ajoutez d'autres propriétés CSS selon vos besoins */
+  }
+  
 .fa-contact {
     display: flex;
     position: absolute;
@@ -375,9 +384,40 @@ nav {
     .fond{
         display: flex;
         flex-direction: column;
+        width: 50%; 
+    }
+    .hero-contact{
+        background: none;
+        width: 45%;
+        background: url('img/photoChien.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-right: 24px;
+   
     }
     .ContenerCont{
-     display: inline;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     background-color: #000;
+
+    }
+    .contac-mail{
+        padding: 0%;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .contac-mail:hover{
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        border: 1px solid black;
+        color: whitesmoke;
+        background: #0a0a0a;
+        font-size: 25px;
+        padding: 5px;
+
+        transition: 1s;
+
 
     }
     .fa-arrow-down{
@@ -392,8 +432,19 @@ nav {
        display: none;
        
     }
+     .wrap-contact{
+        margin-left: 0;
+        box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+        border: 1px solid black;
+        color: whitesmoke;
+        background: #0a0a0a;
+
+     }
+     .contact-in{
+        margin-bottom: 13px;
+     }
     .begin{
-        background: #181717;
+        background: #0a0a0a;
         box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
         border: 1px solid black;
         color: whitesmoke;
@@ -411,13 +462,13 @@ nav {
         color: whitesmoke;
         position: absolute;
         right: 66%;
-        bottom: 31%;
-        font-size: 42px;
+        font-size:  70px;
+        margin-top: 15px;
     }
     .titre-tuto{
         font-size: 26px;
         width: 60%;
-        top: 75px;
+        top: 125px;
         padding-top: 3px;
         padding-bottom: 3px;
         bottom: auto;
@@ -464,7 +515,24 @@ nav {
         bottom: 31%;
         font-size: 42px;
     }
-    
+    .begin{
+      margin-right: 12px;
+    }
+    .contenrDesktop{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #000;
+    }
+    .titre-bio{
+        margin-top: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 2%;
+    }
+    .hero-bio{
+        height: 194vh;
+    }
 .beatels{
     width: 25%;
 
@@ -476,12 +544,13 @@ nav {
     width: 25%;
 }
 .titre-tuto{
-    bottom: 76%;
+    top: 48px;
     color: white;
     backdrop-filter: blur(5px);
-    width: 56%;
+    width: 30%;
     bottom: 74%;
-    color: white;
+    font-size: 19px;
+
 }
 .fa-phone:before {
     font-size: 17px;
@@ -496,6 +565,7 @@ header{
 }
 nav{
     align-items: stretch;
+    
 }
 
 }
