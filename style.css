@@ -517,6 +517,7 @@ nav {
     }
     .begin{
       margin-right: 12px;
+      margin-left: 30px;
     }
     .contenrDesktop{
         display: flex;
@@ -558,6 +559,20 @@ nav {
     padding-bottom: 1px;
     
 }
+.ContenerCont{
+    align-items: flex-start;
+}
+.wrap-contact{
+    margin-top: 12px;
+    box-shadow: 2px 3px 3px rgb(122 112 112 / 50%);
+    border: 1px solid black;
+    color: whitesmoke;
+    background: #0a0a0a;
+}
+.fond{
+    background: none;
+}
+
 header{
     height: 11vh;
     padding-right: 3%;
