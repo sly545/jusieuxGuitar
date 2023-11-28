@@ -13,6 +13,13 @@ window.addEventListener('scroll', () => {
 
 toggle.addEventListener('click', () => {
   body.classList.toggle('open');
+  if(body.classList.contains('open')) {
+    // Empêche le défilement en ajoutant 'overflow: hidden' au body
+    document.body.style.overflow = 'hidden';
+  } else {
+    // Réactive le défilement en supprimant 'overflow: hidden' du body
+    document.body.style.overflow = '';
+  }
 });
 
 fleche.addEventListener('click', () => {
