@@ -18,6 +18,9 @@ body {
     text-decoration: none;
    
 }
+.lientel{
+    visibility: hidden;
+}
 .ContenerCont{
     display: flex;
     flex-direction: column;
@@ -527,6 +530,9 @@ nav {
         bottom: 31%;
         font-size: 42px;
     }
+    .lientel{
+        visibility: visible;
+    }
     .begin{
       display: flex;
       flex-direction: column;
@@ -615,11 +621,13 @@ nav{
         padding: 0;
         box-sizing: border-box;
     }
-    
+    .lientel{
+        visibility: visible;
+    }
     .arno{
         text-decoration: none;
     }
-        
+  
     .hero {
         height: 100vh;
         background: url('img/guitarPhotopresentationMODIFIER.jpeg');
